@@ -9,25 +9,16 @@ import {
 import App from './App';
 import Tick from './components/tutorials/ElementRender';
 import Welcome from './components/tutorials/ComponentProps';
-import './css/main.css';
+import './css/styles.css';
 
 const router = createBrowserRouter(
   [
-    {
-    path : "/",
-    element : (
-      <div>
-        <h1>Hello World</h1>
-        <Link to ="about">About Us</Link>
-      </div>    
-      ),
-    },
     {
       path : "about",
       element: <div>About</div>,
     },
     {
-      path : "app",
+      path : "/",
       element: <App/>,
     },
     {
