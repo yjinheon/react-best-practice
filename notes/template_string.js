@@ -13,13 +13,13 @@ let product = {
     price : 1.99,
 }
 
-let message = `The price of ${product.name} is ${product.price}`;
+// templete string
 
+let message = `The price of ${product.name} is ${product.price}`;
 let multiline = `This is
 a multiline
 string`;
 
 console.log(message);
-
 console.log(multiline);
 

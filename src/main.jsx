@@ -13,13 +13,13 @@ import './css/styles.css';
 
 const router = createBrowserRouter(
   [
+   {
+      path : "/",
+      element: <App/>,
+    },
     {
       path : "about",
       element: <div>About</div>,
-    },
-    {
-      path : "/",
-      element: <App/>,
     },
     {
       path : "tick",
