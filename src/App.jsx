@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './css/styles.css';
 
+
+
 export default function App() {
     const [newItem, setNewItem] = useState('');
     const [todos, setTodos] = useState([]);
@@ -11,7 +13,7 @@ export default function App() {
 
         setTodos((currentTodos) => {
             return [
-                ...currentTodos,
+                ...currentTodos, // spread operator
                 {
                     id: crypto.randomUUID(),
                     title: newItem,
@@ -39,8 +41,6 @@ export default function App() {
         return currentTodos.filter(todo => todo.id !== id) // 현재 배열에서 선택한 id 제외
       })
     }
-
-       
 
     console.log(todos);
 
