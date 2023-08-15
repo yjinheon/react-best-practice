@@ -1,3 +1,14 @@
+# VScode
+
+## 명령어
+
+- `Ctrl + Shift + P` : 명령어 검색
+- `Ctrl + P` : 파일 검색
+- `Ctrl + Shift + E` : 파일 탐색기
+- `Ctrl + Shift + F` : 전체 검색
+
+# NeoVim
+
 ## 명령어
 
 - <leader>x : 현재 파일 닫기
