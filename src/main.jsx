@@ -9,6 +9,7 @@ import {
 import App from './App';
 import Tick from './components/tutorials/ElementRender';
 import Welcome from './components/tutorials/ComponentProps';
+import newApp from './components/tutorials/newApp';
 import './css/styles.css';
 
 const router = createBrowserRouter(
@@ -28,6 +29,10 @@ const router = createBrowserRouter(
     {
       path : "props",
       element: <Welcome name="Sammy"/>,
+    },
+    {
+      path : "newapp",
+      element: <newApp/>,
     }
   ]);
 

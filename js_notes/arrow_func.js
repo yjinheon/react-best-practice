@@ -2,10 +2,11 @@
 
 // arrow function
 
-export const add = (a, b) => {
-  return a + b;
-}
+export const add2 = (a, b) => {
+  return a + b; 
+}  
 
+  
 const MyComponent = () => {
   return <div>MyComponent</div>;
 }
