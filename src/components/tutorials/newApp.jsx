@@ -41,9 +41,8 @@ export default function newApp() {
         alert('hi');
   }}/>
       <Nav topics={topics} onChangeMode={(id)=>{
-      alert(id); ></Nav>
+      alert(id); // 1, 2, 3
       {content}
-  </>
   );
 }
 
